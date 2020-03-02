@@ -28,7 +28,7 @@ function Header({ user }) {
               src="/static/logo.svg"
               style={{ marginRight: "1em" }}
             />
-            myCART
+            My<sub><i><strong>CART</strong></i></sub>
           </Menu.Item>
         </Link>
 
