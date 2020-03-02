@@ -6,23 +6,24 @@ import baseUrl from "../utils/baseUrl";
 import axios from "axios";
 
 function Account({ user, orders }) {
-  console.log(orders);
-  return <>
-    <AccountHeader {...user} />
-    <AccountOrders orders={orders} />
-    {user.role === "root" && <AccountPermissions />}
-  </>;
+  return (
+    <>
+      <AccountHeader {...user} />
+      <AccountOrders orders={orders} />
+      {user.role === "root" && <AccountPermissions />}
+    </>
+  );
 }
 
 Account.getInitialProps = async ctx => {
-  const { token } = parseCookies(ctx)
+  const { token } = parseCookies(ctx);
   if (!token) {
-    return { orders: [] }
+    return { orders: [] };
   }
-  const payload = { headers: { Authorization: token } }
-  const url = `${baseUrl}/api/orders`
-  const response = await axios.get(url, payload)
+  const payload = { headers: { Authorization: token } };
+  const url = `${baseUrl}/api/orders`;
+  const response = await axios.get(url, payload);
   return response.data;
-}
+};
 
 export default Account;
