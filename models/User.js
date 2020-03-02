@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const { STring } = mongoose.Schema.Types
+const { String } = mongoose.Schema.Types
 
 const UserSchema = new mongoose.Schema({
     name: {
