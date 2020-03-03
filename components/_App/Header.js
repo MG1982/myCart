@@ -23,12 +23,12 @@ function Header({ user }) {
       <Container text>
         <Link href="/">
           <Menu.Item header active={isActive("/")}>
+            <strong>My</strong><sub><i>CART</i></sub>
             <Image
               size="mini"
-              src="/static/logo.svg"
+              src="/static/logo.png"
               style={{ marginRight: "1em" }}
             />
-            My<sub><i><strong>CART</strong></i></sub>
           </Menu.Item>
         </Link>
 
