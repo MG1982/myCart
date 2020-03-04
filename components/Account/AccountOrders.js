@@ -40,7 +40,7 @@ function AccountOrders({ orders }) {
                   <List.Content>
                     <List.Header>{p.product.name}</List.Header>
                     <List.Description>
-                      {p.quantity} · ${p.product.price}
+                      {p.quantity} x ${p.product.price}
                     </List.Description>
                   </List.Content>
                   <List.Content floated="right">

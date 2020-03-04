@@ -1,10 +1,15 @@
 import { Item, Label, Button, Icon } from "semantic-ui-react";
 import AddProductToCart from "./AddProductToCart";
-import Link from "next/link";
 
 function ProductSummary({ name, mediaUrl, _id, price, sku, user }) {
   return (
     <Item.Group>
+      <Button href="/" animated color="blue" size="tiny">
+        <Button.Content visible>Back</Button.Content>
+        <Button.Content hidden>
+          <Icon name='arrow left' />
+        </Button.Content>
+      </Button>
       <Item>
         <Item.Image size="medium" src={mediaUrl} />
         <Item.Content>
@@ -18,12 +23,7 @@ function ProductSummary({ name, mediaUrl, _id, price, sku, user }) {
           </Item.Extra>
         </Item.Content>
       </Item>
-      <Button color="orange" size="small" content="Back to items">
-        <Link href="/">
-          <Icon name="arrow left" size="large" />
-        </Link>
-      </Button>
     </Item.Group>
   )
 }
-export default ProductSummary;
+export default ProductSummary; 
