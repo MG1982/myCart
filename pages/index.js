@@ -15,8 +15,9 @@ function Home({ products, totalPages }) {
 
 Home.getInitialProps = async ctx => {
   const page = ctx.query.page ? ctx.query.page : "1";
+  const size = 9;
   const url = `${baseUrl}/api/products`;
-  const payload = { params: { page } };
+  const payload = { params: { page, size } };
   // fetch data on server
   const response = await axios.get(url, payload);
   // return response data as an object

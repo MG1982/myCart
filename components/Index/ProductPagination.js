@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import { Container, Pagination } from "semantic-ui-react";
 
-
 function ProductPagination({ totalPages }) {
   const router = useRouter();
 
@@ -11,14 +10,13 @@ function ProductPagination({ totalPages }) {
         defaultActivePage={1}
         totalPages={totalPages}
         onPageChange={(event, data) => {
-          event.preventDefault();
           data.activePage === 1
             ? router.push("/")
-            : router.push(`/?page=${data.activePage}`)
+            : router.push(`/?page=${data.activePage}`);
         }}
       />
     </Container>
-  )
+  );
 }
 
 export default ProductPagination;

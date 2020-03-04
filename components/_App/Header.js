@@ -27,7 +27,7 @@ function Header({ user }) {
             <Image
               size="mini"
               src="/static/logo.png"
-              style={{ marginRight: "1em" }}
+              style={{ marginLeft: "1em" }}
             />
           </Menu.Item>
         </Link>
