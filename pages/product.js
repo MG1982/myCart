@@ -1,7 +1,9 @@
 import axios from "axios";
 import ProductSummary from "../components/Product/ProductSummary";
 import ProductAttributes from "../components/Product/ProductAttributes";
+import FeaturedProducts from "../components/Index/FeaturedProducts";
 import baseUrl from "../utils/baseUrl";
+
 
 function Product({ product, user }) {
 

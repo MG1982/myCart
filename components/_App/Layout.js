@@ -5,7 +5,9 @@ import Header from "./Header";
 import HeadContent from "./HeadContent";
 import Footer from "./Footer";
 
+
 function Layout({ children, user }) {
+
   return (
     <>
       <Head>

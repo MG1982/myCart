@@ -50,9 +50,9 @@ export default () => (
     <link
       rel="mask-icon"
       href="/static/favicon/safari-pinned-tab.svg"
-      color="#0041df"
+      color="#f96500"
     />
-    <meta name="msapplication-TileColor" content="#00df94" />
-    <meta name="theme-color" content="#00df94" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#25374b" />
   </>
 );

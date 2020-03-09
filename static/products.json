@@ -121,6 +121,7 @@
   {
     "name": "Alexine Mulligan",
     "price": 299.27,
+    "sale": 179.56,
     "description": "Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
     "sku": "135-28-0671",
     "mediaUrl": "https://res-5.cloudinary.com/dwpujv6in/image/upload/c_pad,dpr_2.0,f_auto,h_930,q_auto,w_930/v1/media/catalog/product/j/v/jv1_coatrk_tm_frontlow-splash-coat-rack-tomato-white-oak.jpg"
@@ -128,6 +129,7 @@
   {
     "name": "Micheline Charlson",
     "price": 119.18,
+    "sale": 83.43,
     "description": "Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
     "sku": "738-62-1356",
     "mediaUrl": "https://res-1.cloudinary.com/dwpujv6in/image/upload/c_pad,dpr_2.0,f_auto,h_930,q_auto,w_930/v1/media/catalog/product/d/k/dk1_sqrplw_mg_front.jpg"
@@ -135,6 +137,7 @@
   {
     "name": "Hughie Jeffryes",
     "price": 1199.57,
+    "sale": 599.78,
     "description": "Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
     "sku": "263-43-7868",
     "mediaUrl": "https://res-3.cloudinary.com/dwpujv6in/image/upload/c_pad,dpr_2.0,f_auto,h_930,q_auto,w_930/v1/media/catalog/product/c/i/ci1_lgcoff_gg_frontlow_v2-circula-large-coffee-table-grey-green.jpg"
