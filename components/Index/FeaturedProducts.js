@@ -127,7 +127,7 @@ function FeaturedProducts() {
                             <Item>
                                 <Item.Image size="medium" id="computerStyle" src={products[17].mediaUrl} />
                                 <Item.Content verticalAlign='middle'>
-                                    <Header color="red"><h1>CLEARANCE SAVE 45%!!!</h1></Header>
+                                    <Header color="red"><h1>CLEARANCE SAVE 40%!!!</h1></Header>
                                     <br></br>
                                     <br></br>
                                     <Item.Header>{products[17].name}</Item.Header>
@@ -144,7 +144,7 @@ function FeaturedProducts() {
                             <Item>
                                 <Item.Image size="medium" id="tabletStyle" src={products[17].mediaUrl} />
                                 <Item.Content verticalAlign='middle'>
-                                    <Header color="red"><h2>CLEARANCE SAVE 45%!!!</h2></Header>
+                                    <Header color="red"><h2>CLEARANCE SAVE 40%!!!</h2></Header>
                                     <br></br>
                                     <br></br>
                                     <Item.Header>{products[17].name}</Item.Header>
@@ -160,7 +160,7 @@ function FeaturedProducts() {
                         <Responsive fluid id="mobileStyle" as={Card} {...Responsive.onlyMobile} href="/product?_id=5e5672fb17bc444ff96fd416">
                             <Image src={products[17].mediaUrl} />
                             <Card.Content verticalAlign='middle'>
-                                <Header color="red">CLEARANCE SAVE 45%!!!</Header>
+                                <Header color="red">CLEARANCE SAVE 40%!!!</Header>
                                 <Card.Header>{products[17].name}</Card.Header>
                                 <Card.Description>
                                     <p>Was<s> ${products[17].price}</s></p>
