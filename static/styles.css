@@ -7,6 +7,7 @@
 
 body {
   background: var(--bodyBg);
+  min-width: 320px;
 }
 
 #menu {
@@ -16,6 +17,20 @@ body {
 #footer {
   background: var(--footerBg);
 }
+
+#computerStyle {
+  margin-bottom: 1em;
+  height: 286px;
+}
+#tabletStyle {
+  margin-bottom: 1em;
+  height: 286px;
+}
+
+/* #mobileStyle {
+  margin-bottom: 1em;
+  height: 1000px;
+} */
 
 /* Overrides default styled accordion styles (too much bottom padding) */
 .ui.styled.accordion .content {
