@@ -67,7 +67,7 @@ function FeaturedProducts() {
                 return (
                     //SCREEN SIZES | Mobile: 320px to 766px | Tablet: 767px to 991xpx | Computer: 992px +
                     <>
-                        <Responsive as={Item.Group} {...Responsive.onlyComputer} href="/product?_id=5e5672fb17bc444ff96fd419">
+                        <Responsive as={Item.Group} {...Responsive.onlyComputer} href="/product?_id=5e5672fb17bc444ff96fd418">
                             <Item>
                                 <Item.Image size="medium" id="computerStyle" src={products[18].mediaUrl} />
                                 <Item.Content verticalAlign='middle'>
@@ -84,7 +84,7 @@ function FeaturedProducts() {
                             </Item>
                         </Responsive>
 
-                        <Responsive as={Item.Group} {...Responsive.onlyTablet} href="/product?_id=5e5672fb17bc444ff96fd419">
+                        <Responsive as={Item.Group} {...Responsive.onlyTablet} href="/product?_id=5e5672fb17bc444ff96fd418">
                             <Item>
                                 <Item.Image size="medium" id="tabletStyle" src={products[18].mediaUrl} />
                                 <Item.Content verticalAlign='middle'>
@@ -101,7 +101,7 @@ function FeaturedProducts() {
                             </Item>
                         </Responsive>
 
-                        <Responsive fluid id="mobileStyle" as={Card} {...Responsive.onlyMobile} href="/product?_id=5e5672fb17bc444ff96fd419">
+                        <Responsive fluid id="mobileStyle" as={Card} {...Responsive.onlyMobile} href="/product?_id=5e5672fb17bc444ff96fd418">
                             <Image src={products[18].mediaUrl} />
                             <Card.Content verticalAlign='middle'>
                                 <Header color="red">50% OFF HUGE SAVINGS!!!</Header>
@@ -123,7 +123,7 @@ function FeaturedProducts() {
                 return (
                     //SCREEN SIZES | Mobile: 320px to 766px | Tablet: 767px to 991xpx | Computer: 992px +
                     <>
-                        <Responsive as={Item.Group} {...Responsive.onlyComputer} href="/product?_id=5e5672fb17bc444ff96fd419">
+                        <Responsive as={Item.Group} {...Responsive.onlyComputer} href="/product?_id=5e5672fb17bc444ff96fd416">
                             <Item>
                                 <Item.Image size="medium" id="computerStyle" src={products[17].mediaUrl} />
                                 <Item.Content verticalAlign='middle'>
@@ -140,7 +140,7 @@ function FeaturedProducts() {
                             </Item>
                         </Responsive>
 
-                        <Responsive as={Item.Group} {...Responsive.onlyTablet} href="/product?_id=5e5672fb17bc444ff96fd419">
+                        <Responsive as={Item.Group} {...Responsive.onlyTablet} href="/product?_id=5e5672fb17bc444ff96fd416">
                             <Item>
                                 <Item.Image size="medium" id="tabletStyle" src={products[17].mediaUrl} />
                                 <Item.Content verticalAlign='middle'>
@@ -157,7 +157,7 @@ function FeaturedProducts() {
                             </Item>
                         </Responsive>
 
-                        <Responsive fluid id="mobileStyle" as={Card} {...Responsive.onlyMobile} href="/product?_id=5e5672fb17bc444ff96fd419">
+                        <Responsive fluid id="mobileStyle" as={Card} {...Responsive.onlyMobile} href="/product?_id=5e5672fb17bc444ff96fd416">
                             <Image src={products[17].mediaUrl} />
                             <Card.Content verticalAlign='middle'>
                                 <Header color="red">50% OFF HUGE SAVINGS!!!</Header>
