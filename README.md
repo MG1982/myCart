@@ -8,7 +8,7 @@
 
 - “As the Root user, I would like to restrict permissions based on role.”
 - “As an Administrator, I would like to add and delete sale items.”
-- “As a User, I would like to view, add to my cart and purchase sale items”
+- “As a User, I would like to view, add to my cart and purchase sale items.”
 - "As a Guest, I would like to browse sale items without having to signup or login."
 - “As a Guest, I would like to be able to signup with a secure authentication method."
 
