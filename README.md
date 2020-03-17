@@ -2,7 +2,7 @@
 
 ## MERN Stack eCommerce Progressive Web Application
 
-<a href="https://shop-my-cart.herokuapp.com"  target="_blank"><img src="./static/myCart.jpg" title="myCART" alt="myCart"></a>
+## Click <a href="https://shop-my-cart.herokuapp.com/" target="_blank" />here</a> for the live app.
 
 ## Use cases / User stories
 
@@ -11,6 +11,10 @@
 - “As a User, I would like to view, add to my cart and purchase sale items.”
 - "As a Guest, I would like to browse sale items without having to signup or login."
 - “As a Guest, I would like to be able to signup with a secure authentication method."
+
+This is the Login screen:
+
+<a href="https://shop-my-cart.herokuapp.com"  target="_blank"><img src="./static/myCart.jpg" title="myCART" alt="myCart"></a>
 
 ## Build Features
 
@@ -24,7 +28,6 @@
 - Pagination.
 - Responsive <a href="https://react.semantic-ui.com/" target="_blank">Semantic UI React</a> Front End.
 - Full set of Progressive Web App favicons created with <a href="https://realfavicongenerator.net/" target="_blank">Favicon Generator</a>.
-
 - Complete app deployment with Heroku: <a href="https://shop-my-cart.herokuapp.com" target="_blank">**My<i><sub>CART**</i></sub> <sub><img src="./static/favicon/favicon-16x16.png"/></sub></a>
 
 ## Build Dependencies:
@@ -48,4 +51,6 @@
 
 ## What's Next?
 
-- Track stock numbers. Not limited to one store but multiple stores.
+- Track stock numbers. Not limited to one store but multiple stores.         
+
+Thank you for visiting!
